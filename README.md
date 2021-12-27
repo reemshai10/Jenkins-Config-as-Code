@@ -1,6 +1,7 @@
 this repository is about Jenkins Config as Code
 
 <b>First boot</b>
+
 First off we require docker-compose.
 
 This is very simple, using docker-compose execute the following command from the root of this repository:
