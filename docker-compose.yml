@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  jenkins:
+    build:
+      context: .
+    ports:  # localhost:8080 or localhost -Jenkins will show up
+      - 80:8080
+    volumes:
+      - jenkinsHome:/var/jenkinsHome
+
+
+volumes: # save the data with volume by name
+  jenkinsHome:
